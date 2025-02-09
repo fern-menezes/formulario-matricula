@@ -19,7 +19,47 @@
                     <img src="assets/arrow-left-02.svg" alt="Icone seta voltar">
                     <span>Voltar</span>
                 </div>
+                <h1>Formulário de matrícula</h1>
+                <p>Preencha os dados abaixo para matricular seu filho na escola de educação infantil Estrelas do Amanhã.</p>
 
+                <form enctype="multipart/form-data" method="post">
+                    <fieldset class="chield-info">
+                        <legend>Informações da criança</legend>
+
+                        <div class="input-wrapper">
+                            <label for="fullname">Nome Completo</label>
+                            <input type="text" id="fullname" name="fullname" placeholder="Nome completo da criança">
+                        </div>
+
+                        <div class="input-wrapper">
+                            <label for="">Data de Nascimento</label>
+                            <input type="date" id="birth" lang="pt-br" name="bithday">
+                        </div>
+
+                        <div class="select-wrapper">
+                            <label for="gender">Sexo</label>
+                            <select name="gender" id="gender" name="gender">
+                                <option value="female">Feminino</option>
+                                <option value="male">Masculino</option>
+                                <option value="na">Prefiro não informar</option>
+                            </select>
+                        </div>
+
+                        <div class="textarea-wrapper">
+                            <label for="medical-info">Informações Médicas</label>
+                            <textarea name="medical-info" id="medical-info"
+                                cols="30" rows="10" placeholder="Descreva informações médicas relevantes sobre a criança"
+                                ></textarea>
+                        </div>
+
+                        <div class="droparea-wrapper">
+                            <input type="file" id="birth-certificate" name="birth-certificate" accept="image/*">
+                            <img src="assets/cloud-upload.svg" alt="Ícone de Upload de arquivos">
+                            <br>
+                            <p>Clique aqui para selecionar o arquivo</p>
+                        </div>
+                    </fieldset>
+                </form>
             </div>
         </main>
 
