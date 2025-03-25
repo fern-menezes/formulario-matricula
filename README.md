@@ -1,12 +1,12 @@
 ![Estrelas do amanhã](https://github.com/fern-menezes/formulario-matricula/blob/main/assets/form-matricula.png)
 
-# ⭐ Formulário Responsivo - Estrelas do Amanhã
+# ⭐ Formulário - Estrelas do Amanhã
 Este projeto é um formulário de matrícula para a escola "Estrelas do Amanhã", desenvolvido para praticar e aplicar conceitos de HTML e CSS, com foco na criação de um layout responsivo e acessível.
 
 ## 🚀 Tecnologias Utilizadas
 - 🌐 HTML5: Estruturação semântica do conteúdo.
-- 🎨 CSS3: Estilização e layout, incluindo práticas modernas de responsividade.
-- 📱 Responsividade: Design adaptado para diferentes dispositivos (mobile e desktop).
+- 🎨 CSS3: Estilização e layout.
+- 📱 Inicio da responsividade: Design adaptado para diferentes dispositivos (mobile e desktop).
 
 ## 🌟 Funcionalidades
 Formulário completo de matrícula, incluindo campos para informações pessoais e médicas.
